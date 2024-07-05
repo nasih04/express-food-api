@@ -14,7 +14,7 @@ router.post('/', async (req, res) => {
   }
 });
 
-// Get all food items
+// Get all food item
 router.get('/', async (req, res) => {
   try {
     const foods = await Food.find();
